@@ -1,0 +1,2004 @@
+[
+    {
+        "@type": "header",
+        "species": "human",
+        "organ": "Abdominal",
+        "name": "The SPL/NAC Abdominal Atlas",
+        "license": "?",
+        "citation": "?",
+        "version": "1",
+        "contact": "https://github.com/stity/spl-abdominal-atlas",
+        "comment": "",
+        "coordinate_system": "self defined"
+    },
+    {
+        "@id": "ecf5906a-62d1-43ae-8be8-2997e333dd19",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_13_stomach_and_duodenum.vtk"
+    },
+    {
+        "@id": "fa80dcf7-26c7-4252-9995-1031df67d50d",
+        "@type": "structure",
+        "annotation": {
+            "name": "stomach and duodenum"
+        },
+        "sourceSelector": {
+            "dataSource": "ecf5906a-62d1-43ae-8be8-2997e333dd19"
+        },
+        "renderOptions": {
+            "color": "rgb(209,170,160)"
+        }
+    },
+    {
+        "@id": "266478de-dea4-4b93-9ba0-005a9860e433",
+        "@type": "group",
+        "annotation": {
+            "name": "Muscles"
+        },
+        "members": [
+            "5e246d94-512a-403d-b59a-8c301c47a195",
+            "3f64a389-a687-414f-b0b5-b24a92966907",
+            "acce6011-8338-4e1f-bd35-569e21da6fe6",
+            "e4d80cbc-0a1d-4fbb-b713-4619bff6d3ae",
+            "aa74342d-d769-4eb0-bcde-d038574ff2b5",
+            "d7fe02be-70b1-492a-b827-b6adab301af4",
+            "2b968422-5dd5-4a28-a1a6-694c7f38f137",
+            "6af9a750-469c-498c-ba97-e08f5a34db8e",
+            "6a58c410-0fe0-4dcf-9eb9-7ece4bcf7775",
+            "a9ee934b-1b0a-4ba8-8e93-fbe0884f26e1",
+            "7c5dc46f-e665-4e4f-831e-4dd61fcbaf59",
+            "edf9415b-30b4-4283-a15c-28f65044abad",
+            "6a6cf003-cffd-4ddf-8871-e01f7ea90f8a",
+            "cbd786c1-a346-4528-b654-66895aa9b963",
+            "7c88671f-7273-487e-9182-d72783fb1dd8",
+            "6a0c2f3a-67eb-46a2-931c-0f03fbd599c1",
+            "f559ebac-8b5d-47d3-984f-193a114774b1",
+            "0a5dd917-9fae-466e-94da-982db24733af",
+            "dcbeef4f-3750-48a2-8506-8146be58a8e6"
+        ],
+        "root": true
+    },
+    {
+        "@id": "03859221-c4e1-4837-899d-5f24c116211a",
+        "@type": "group",
+        "annotation": {
+            "name": "Vascular System"
+        },
+        "members": [
+            "5dfebc3c-8537-484b-a788-07271239f64a",
+            "11f98e6f-d37e-48f4-a7ec-67286f5b2e74"
+        ],
+        "root": true
+    },
+    {
+        "@id": "5dfebc3c-8537-484b-a788-07271239f64a",
+        "@type": "group",
+        "annotation": {
+            "name": "Arteries"
+        },
+        "members": [
+            "32da276b-bc87-4c3a-a1be-fd176b8b449e",
+            "7a5286b9-6e85-48ab-a42f-0a6d351f5b43",
+            "8a93d31b-ef38-4d2d-a133-37490f4fab34",
+            "1f8fad9a-a1be-47fd-b427-48d3e6ba0d9c",
+            "2d0e8283-4148-4bce-89ea-372e8c7578e6",
+            "5e208e77-d5f9-4e0c-a913-f6d500b072df",
+            "b9585ef4-fd0c-4915-bfda-4519cf6f5db1",
+            "adb76a0f-1e29-4d67-901f-2fc1b78f5d5c",
+            "a7b5d0d6-4492-4822-b3de-bf37ac810aea",
+            "4681ebd7-3196-4dc1-b1a7-c65d91aabbff",
+            "52de6195-d7b6-416b-8daa-79ae501877cb",
+            "685d504b-7a26-42e0-9941-abae4a23f180",
+            "f098c48f-eac0-4651-ad2d-dab7529ca39a",
+            "2df68b26-791b-4a37-a62b-9e4a5164f685",
+            "f7cdd2e1-7324-4723-8dc6-0e3535c0f16b",
+            "ae3c06d2-2893-401f-b137-a61c9b6f7e51",
+            "b4802b15-a0d9-4f6a-8585-4339c73d78b1",
+            "56422c3e-c77e-466f-928c-065c11f9b954",
+            "47d27a81-0c8d-4f6f-afb1-aadeae60c633",
+            "ac6d53a1-747d-43d6-973d-3b42dc6c611b",
+            "57222d0e-4db1-476b-b7dc-d26c2b7badb8"
+        ]
+    },
+    {
+        "@id": "11f98e6f-d37e-48f4-a7ec-67286f5b2e74",
+        "@type": "group",
+        "annotation": {
+            "name": "Veins"
+        },
+        "members": [
+            "e538d873-9f54-4e3c-ab08-ee3783c7f9e8",
+            "01121bab-1d84-4e78-a875-4f7bb211ce7b",
+            "5bbb21d2-714f-49c9-8fe6-8bd7a2e9c0dd",
+            "62312e1b-6cd2-4130-9e6c-a345366590d0",
+            "fdb09f8f-ecc4-4d49-9485-034ff81d7822",
+            "7c914ab5-3174-48f1-afb9-59f3724e0450",
+            "d547c81a-cb40-46f9-ba1a-a5a9311dfdf8",
+            "b81337ac-d38c-4f8f-b516-40824cfe0411",
+            "40bcbc7f-ac51-40a5-87c1-6a311d761770",
+            "3630aaa8-4731-4535-908d-0321c2488f12",
+            "cc401d6f-0b92-45ea-b2d5-65cea5cbbaaa",
+            "269f1289-3e27-4fbc-a891-812523bb949a",
+            "69d099f5-b78a-4722-806e-6107e1742d61"
+        ]
+    },
+    {
+        "@id": "fa56d639-1b8b-4c99-b87f-45d4bb6d7f79",
+        "@type": "group",
+        "annotation": {
+            "name": "GU"
+        },
+        "members": [
+            "f7fb1da2-f622-4744-ab94-6c77dcead6b3",
+            "77758751-3b8a-4c01-8757-d6c8ff54f22f",
+            "af7d3557-ab9d-435b-8f87-7174057b6857",
+            "efca891f-7a55-4e85-97fe-b0aaaa0a13e5",
+            "a381e803-b49b-4541-acc5-80ab89f6d882",
+            "95a8c093-fdef-4f1a-a39b-1ea4369fe248",
+            "307eb605-8122-40aa-a053-5b95dce19f75",
+            "4b63c9eb-8cd0-4a60-ab0b-1153ce6696a7"
+        ]
+    },
+    {
+        "@id": "fce10450-4427-46ac-b008-67d6407b88bc",
+        "@type": "group",
+        "annotation": {
+            "name": "GI"
+        },
+        "members": [
+            "5bc913cd-e428-4586-963e-6e1b116ec004",
+            "8b025e19-1dca-4825-8c93-b320ef0b4582",
+            "87eeb0da-1404-4bb1-b688-0509eadc894c",
+            "fa80dcf7-26c7-4252-9995-1031df67d50d",
+            "e80a7f01-e84b-43dc-a0c9-19e1e6c46008"
+        ]
+    },
+    {
+        "@id": "e50e6f72-2ad5-4dd4-9e43-4a974515bb34",
+        "@type": "group",
+        "annotation": {
+            "name": "Abdominal Organs"
+        },
+        "members": [
+            "fa56d639-1b8b-4c99-b87f-45d4bb6d7f79",
+            "fce10450-4427-46ac-b008-67d6407b88bc",
+            "de17322f-1721-4306-acaf-7b4b31d66a87"
+        ],
+        "root": true
+    },
+    {
+        "@id": "cfee70b3-5140-41f0-960d-86adbbbba144",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_16_celiac_trunk.vtk"
+    },
+    {
+        "@id": "685d504b-7a26-42e0-9941-abae4a23f180",
+        "@type": "structure",
+        "annotation": {
+            "name": "celiac trunk"
+        },
+        "sourceSelector": {
+            "dataSource": "cfee70b3-5140-41f0-960d-86adbbbba144"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "4fe62344-bcd0-45cc-9ad2-85546ddf01e7",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_17_splenic_artery.vtk"
+    },
+    {
+        "@id": "52de6195-d7b6-416b-8daa-79ae501877cb",
+        "@type": "structure",
+        "annotation": {
+            "name": "splenic artery"
+        },
+        "sourceSelector": {
+            "dataSource": "4fe62344-bcd0-45cc-9ad2-85546ddf01e7"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "48057976-9760-4066-8455-4c5865477585",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_18_left_gastric_artery.vtk"
+    },
+    {
+        "@id": "4681ebd7-3196-4dc1-b1a7-c65d91aabbff",
+        "@type": "structure",
+        "annotation": {
+            "name": "left gastric artery"
+        },
+        "sourceSelector": {
+            "dataSource": "48057976-9760-4066-8455-4c5865477585"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "67863b01-2673-4dd4-a8d4-0e7ef50646d4",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_19_common_hepatic_artery.vtk"
+    },
+    {
+        "@id": "ae3c06d2-2893-401f-b137-a61c9b6f7e51",
+        "@type": "structure",
+        "annotation": {
+            "name": "common hepatic artery"
+        },
+        "sourceSelector": {
+            "dataSource": "67863b01-2673-4dd4-a8d4-0e7ef50646d4"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "d5383eed-fcec-4788-bf7d-a830b56a5a2e",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_20_hepatic_artery_proper.vtk"
+    },
+    {
+        "@id": "f7cdd2e1-7324-4723-8dc6-0e3535c0f16b",
+        "@type": "structure",
+        "annotation": {
+            "name": "hepatic artery proper"
+        },
+        "sourceSelector": {
+            "dataSource": "d5383eed-fcec-4788-bf7d-a830b56a5a2e"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "fe0fdea0-ecd0-4420-813a-ba14be2e6788",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_21_gastroduodenal_artery.vtk"
+    },
+    {
+        "@id": "2df68b26-791b-4a37-a62b-9e4a5164f685",
+        "@type": "structure",
+        "annotation": {
+            "name": "gastroduodenal artery"
+        },
+        "sourceSelector": {
+            "dataSource": "fe0fdea0-ecd0-4420-813a-ba14be2e6788"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "1ceee639-e44d-40e9-a538-59fbaffe16bc",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_22_superior_mesenteric_artery.vtk"
+    },
+    {
+        "@id": "f098c48f-eac0-4651-ad2d-dab7529ca39a",
+        "@type": "structure",
+        "annotation": {
+            "name": "superior mesenteric artery"
+        },
+        "sourceSelector": {
+            "dataSource": "1ceee639-e44d-40e9-a538-59fbaffe16bc"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "4483f6e5-a102-46ee-b596-ad38d0e5b987",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_23_inferior_mesenteric_artery.vtk"
+    },
+    {
+        "@id": "ac6d53a1-747d-43d6-973d-3b42dc6c611b",
+        "@type": "structure",
+        "annotation": {
+            "name": "inferior mesenteric artery"
+        },
+        "sourceSelector": {
+            "dataSource": "4483f6e5-a102-46ee-b596-ad38d0e5b987"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "3dc4b5bf-fcca-4ca1-b5ae-85e4cba37c11",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_24_left_hepatic_artery.vtk"
+    },
+    {
+        "@id": "47d27a81-0c8d-4f6f-afb1-aadeae60c633",
+        "@type": "structure",
+        "annotation": {
+            "name": "left hepatic artery"
+        },
+        "sourceSelector": {
+            "dataSource": "3dc4b5bf-fcca-4ca1-b5ae-85e4cba37c11"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "9f292c49-264a-4692-b0de-47c60ee3f6a8",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_3_liver.vtk"
+    },
+    {
+        "@id": "5bc913cd-e428-4586-963e-6e1b116ec004",
+        "@type": "structure",
+        "annotation": {
+            "name": "liver"
+        },
+        "sourceSelector": {
+            "dataSource": "9f292c49-264a-4692-b0de-47c60ee3f6a8"
+        },
+        "renderOptions": {
+            "color": "rgb(147,59,0)"
+        }
+    },
+    {
+        "@id": "c8f0992d-7daa-4949-a723-e872f069392f",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_25_right_hepatic_artery.vtk"
+    },
+    {
+        "@id": "adb76a0f-1e29-4d67-901f-2fc1b78f5d5c",
+        "@type": "structure",
+        "annotation": {
+            "name": "right hepatic artery"
+        },
+        "sourceSelector": {
+            "dataSource": "c8f0992d-7daa-4949-a723-e872f069392f"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "0e289c65-d486-451a-a403-3083e49a6da1",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_29_left_renal_artery.vtk"
+    },
+    {
+        "@id": "a7b5d0d6-4492-4822-b3de-bf37ac810aea",
+        "@type": "structure",
+        "annotation": {
+            "name": "left renal artery"
+        },
+        "sourceSelector": {
+            "dataSource": "0e289c65-d486-451a-a403-3083e49a6da1"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "d8b1ce70-9995-48b4-bb4d-f89d1d1d37ec",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_32_rectus_abdominis_muscle.vtk"
+    },
+    {
+        "@id": "cbd786c1-a346-4528-b654-66895aa9b963",
+        "@type": "structure",
+        "annotation": {
+            "name": "rectus abdominis muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "d8b1ce70-9995-48b4-bb4d-f89d1d1d37ec"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "83883c24-4fd6-418c-a86d-b5eaccf1ca54",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_51_right_kidney.vtk"
+    },
+    {
+        "@id": "95a8c093-fdef-4f1a-a39b-1ea4369fe248",
+        "@type": "structure",
+        "annotation": {
+            "name": "right kidney"
+        },
+        "sourceSelector": {
+            "dataSource": "83883c24-4fd6-418c-a86d-b5eaccf1ca54"
+        },
+        "renderOptions": {
+            "color": "rgb(219,170,119)"
+        }
+    },
+    {
+        "@id": "21e997f3-1fe6-4010-9dfe-586a7448598e",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_52_left_kidney.vtk"
+    },
+    {
+        "@id": "4b63c9eb-8cd0-4a60-ab0b-1153ce6696a7",
+        "@type": "structure",
+        "annotation": {
+            "name": "left kidney"
+        },
+        "sourceSelector": {
+            "dataSource": "21e997f3-1fe6-4010-9dfe-586a7448598e"
+        },
+        "renderOptions": {
+            "color": "rgb(219,170,119)"
+        }
+    },
+    {
+        "@id": "1b64bae5-a175-45b3-8e74-6a24557ae262",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_71_right_common_iliac_artery.vtk"
+    },
+    {
+        "@id": "5e208e77-d5f9-4e0c-a913-f6d500b072df",
+        "@type": "structure",
+        "annotation": {
+            "name": "right common iliac artery"
+        },
+        "sourceSelector": {
+            "dataSource": "1b64bae5-a175-45b3-8e74-6a24557ae262"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "960e3c16-e9a5-4524-b1f7-8edec30c6e7a",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_72_left_common_iliac_artery.vtk"
+    },
+    {
+        "@id": "b4802b15-a0d9-4f6a-8585-4339c73d78b1",
+        "@type": "structure",
+        "annotation": {
+            "name": "left common iliac artery"
+        },
+        "sourceSelector": {
+            "dataSource": "960e3c16-e9a5-4524-b1f7-8edec30c6e7a"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "74cd37b4-b832-44a1-8798-3678ac767c22",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_73_right_external_iliac_artery.vtk"
+    },
+    {
+        "@id": "56422c3e-c77e-466f-928c-065c11f9b954",
+        "@type": "structure",
+        "annotation": {
+            "name": "right external iliac artery"
+        },
+        "sourceSelector": {
+            "dataSource": "74cd37b4-b832-44a1-8798-3678ac767c22"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "8aa1bf1b-0ebb-4b53-b1a4-4b0f92e3cc94",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_74_left_external_iliac_artery.vtk"
+    },
+    {
+        "@id": "57222d0e-4db1-476b-b7dc-d26c2b7badb8",
+        "@type": "structure",
+        "annotation": {
+            "name": "left external iliac artery"
+        },
+        "sourceSelector": {
+            "dataSource": "8aa1bf1b-0ebb-4b53-b1a4-4b0f92e3cc94"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "d738af3c-d825-43b6-abe0-46ff0dbc37fb",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_75_right_internal_iliac_artery.vtk"
+    },
+    {
+        "@id": "32da276b-bc87-4c3a-a1be-fd176b8b449e",
+        "@type": "structure",
+        "annotation": {
+            "name": "right internal iliac artery"
+        },
+        "sourceSelector": {
+            "dataSource": "d738af3c-d825-43b6-abe0-46ff0dbc37fb"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "90e59b41-a03f-4834-8342-fc791c62371d",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_4_spleen.vtk"
+    },
+    {
+        "@id": "de17322f-1721-4306-acaf-7b4b31d66a87",
+        "@type": "structure",
+        "annotation": {
+            "name": "spleen"
+        },
+        "sourceSelector": {
+            "dataSource": "90e59b41-a03f-4834-8342-fc791c62371d"
+        },
+        "renderOptions": {
+            "color": "rgb(140,100,160)"
+        }
+    },
+    {
+        "@id": "eb195b6e-a5db-4e3e-a581-7a6a5dd6fc41",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_76_left_internal_iliac_artery.vtk"
+    },
+    {
+        "@id": "8a93d31b-ef38-4d2d-a133-37490f4fab34",
+        "@type": "structure",
+        "annotation": {
+            "name": "left internal iliac artery"
+        },
+        "sourceSelector": {
+            "dataSource": "eb195b6e-a5db-4e3e-a581-7a6a5dd6fc41"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "73500354-43d9-4e0c-895f-14a397cd8446",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_81_right_common_iliac_vein.vtk"
+    },
+    {
+        "@id": "40bcbc7f-ac51-40a5-87c1-6a311d761770",
+        "@type": "structure",
+        "annotation": {
+            "name": "right common iliac vein"
+        },
+        "sourceSelector": {
+            "dataSource": "73500354-43d9-4e0c-895f-14a397cd8446"
+        },
+        "renderOptions": {
+            "color": "rgb(40,165,255)"
+        }
+    },
+    {
+        "@id": "a5d160bb-5f9b-4e7e-8f41-ccacf859e87b",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_82_left_common_iliac_vein.vtk"
+    },
+    {
+        "@id": "01121bab-1d84-4e78-a875-4f7bb211ce7b",
+        "@type": "structure",
+        "annotation": {
+            "name": "left common iliac vein"
+        },
+        "sourceSelector": {
+            "dataSource": "a5d160bb-5f9b-4e7e-8f41-ccacf859e87b"
+        },
+        "renderOptions": {
+            "color": "rgb(40,165,255)"
+        }
+    },
+    {
+        "@id": "db462ef6-7ee8-48e0-8543-03bc09037f26",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_83_right_external_iliac_vein.vtk"
+    },
+    {
+        "@id": "3630aaa8-4731-4535-908d-0321c2488f12",
+        "@type": "structure",
+        "annotation": {
+            "name": "right external iliac vein"
+        },
+        "sourceSelector": {
+            "dataSource": "db462ef6-7ee8-48e0-8543-03bc09037f26"
+        },
+        "renderOptions": {
+            "color": "rgb(40,165,255)"
+        }
+    },
+    {
+        "@id": "37cc0d37-15b2-46bc-893e-258dd1584b2a",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_84_left_external_iliac_vein.vtk"
+    },
+    {
+        "@id": "d547c81a-cb40-46f9-ba1a-a5a9311dfdf8",
+        "@type": "structure",
+        "annotation": {
+            "name": "left external iliac vein"
+        },
+        "sourceSelector": {
+            "dataSource": "37cc0d37-15b2-46bc-893e-258dd1584b2a"
+        },
+        "renderOptions": {
+            "color": "rgb(40,165,255)"
+        }
+    },
+    {
+        "@id": "4ffdf947-62b1-43eb-b305-84fb270bfa39",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_85_right_internal_iliac_vein.vtk"
+    },
+    {
+        "@id": "7c914ab5-3174-48f1-afb9-59f3724e0450",
+        "@type": "structure",
+        "annotation": {
+            "name": "right internal iliac vein"
+        },
+        "sourceSelector": {
+            "dataSource": "4ffdf947-62b1-43eb-b305-84fb270bfa39"
+        },
+        "renderOptions": {
+            "color": "rgb(40,165,255)"
+        }
+    },
+    {
+        "@id": "3201b2e3-f81f-49fc-9d8c-8ed2c361fd41",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_86_left_internal_iliac_vein.vtk"
+    },
+    {
+        "@id": "b81337ac-d38c-4f8f-b516-40824cfe0411",
+        "@type": "structure",
+        "annotation": {
+            "name": "left internal iliac vein"
+        },
+        "sourceSelector": {
+            "dataSource": "3201b2e3-f81f-49fc-9d8c-8ed2c361fd41"
+        },
+        "renderOptions": {
+            "color": "rgb(40,165,255)"
+        }
+    },
+    {
+        "@id": "f4b26df4-f487-4e5a-a4a4-18c0fa3a194b",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_111_right_adrenal_gland.vtk"
+    },
+    {
+        "@id": "77758751-3b8a-4c01-8757-d6c8ff54f22f",
+        "@type": "structure",
+        "annotation": {
+            "name": "right adrenal gland"
+        },
+        "sourceSelector": {
+            "dataSource": "f4b26df4-f487-4e5a-a4a4-18c0fa3a194b"
+        },
+        "renderOptions": {
+            "color": "rgb(255,223,77)"
+        }
+    },
+    {
+        "@id": "4819af2b-cbbb-4442-8a35-46f91476f443",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_112_left_adrenal_gland.vtk"
+    },
+    {
+        "@id": "f7fb1da2-f622-4744-ab94-6c77dcead6b3",
+        "@type": "structure",
+        "annotation": {
+            "name": "left adrenal gland"
+        },
+        "sourceSelector": {
+            "dataSource": "4819af2b-cbbb-4442-8a35-46f91476f443"
+        },
+        "renderOptions": {
+            "color": "rgb(255,223,77)"
+        }
+    },
+    {
+        "@id": "31814998-6a4f-4a70-aa92-8a3f5e5ea5c5",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_117_splenic_vein.vtk"
+    },
+    {
+        "@id": "fdb09f8f-ecc4-4d49-9485-034ff81d7822",
+        "@type": "structure",
+        "annotation": {
+            "name": "splenic vein"
+        },
+        "sourceSelector": {
+            "dataSource": "31814998-6a4f-4a70-aa92-8a3f5e5ea5c5"
+        },
+        "renderOptions": {
+            "color": "rgb(40,165,255)"
+        }
+    },
+    {
+        "@id": "3479634c-1984-4e16-a9a0-48514cb5743a",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_6_pancreas.vtk"
+    },
+    {
+        "@id": "87eeb0da-1404-4bb1-b688-0509eadc894c",
+        "@type": "structure",
+        "annotation": {
+            "name": "pancreas"
+        },
+        "sourceSelector": {
+            "dataSource": "3479634c-1984-4e16-a9a0-48514cb5743a"
+        },
+        "renderOptions": {
+            "color": "rgb(156,110,54)"
+        }
+    },
+    {
+        "@id": "4ac9c19a-9949-468e-965a-77f31aa533b9",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_126_right_renal_artery.vtk"
+    },
+    {
+        "@id": "1f8fad9a-a1be-47fd-b427-48d3e6ba0d9c",
+        "@type": "structure",
+        "annotation": {
+            "name": "right renal artery"
+        },
+        "sourceSelector": {
+            "dataSource": "4ac9c19a-9949-468e-965a-77f31aa533b9"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "f6003119-0dbd-4145-9b88-87c54e04b089",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_127_right_inferior_epigastric_artery.vtk"
+    },
+    {
+        "@id": "2d0e8283-4148-4bce-89ea-372e8c7578e6",
+        "@type": "structure",
+        "annotation": {
+            "name": "right inferior epigastric artery"
+        },
+        "sourceSelector": {
+            "dataSource": "f6003119-0dbd-4145-9b88-87c54e04b089"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "289f7615-fa53-4416-b617-98ed23c3e07b",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_128_left_renal_vein.vtk"
+    },
+    {
+        "@id": "5bbb21d2-714f-49c9-8fe6-8bd7a2e9c0dd",
+        "@type": "structure",
+        "annotation": {
+            "name": "left renal vein"
+        },
+        "sourceSelector": {
+            "dataSource": "289f7615-fa53-4416-b617-98ed23c3e07b"
+        },
+        "renderOptions": {
+            "color": "rgb(195,202,255)"
+        }
+    },
+    {
+        "@id": "8cf276c7-01c8-4e72-874b-326a9bcb39a9",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_129_right_renal_vein.vtk"
+    },
+    {
+        "@id": "62312e1b-6cd2-4130-9e6c-a345366590d0",
+        "@type": "structure",
+        "annotation": {
+            "name": "right renal vein"
+        },
+        "sourceSelector": {
+            "dataSource": "8cf276c7-01c8-4e72-874b-326a9bcb39a9"
+        },
+        "renderOptions": {
+            "color": "rgb(195,202,255)"
+        }
+    },
+    {
+        "@id": "c6ab4dea-6f81-41ea-a6df-eb2ed2c2fe8c",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_131_right_psoas_muscle.vtk"
+    },
+    {
+        "@id": "acce6011-8338-4e1f-bd35-569e21da6fe6",
+        "@type": "structure",
+        "annotation": {
+            "name": "right psoas muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "c6ab4dea-6f81-41ea-a6df-eb2ed2c2fe8c"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "f28d18ce-3580-4247-b400-ccc7a6a8e747",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_133_right_quadratus_lumborum_muscle.vtk"
+    },
+    {
+        "@id": "e4d80cbc-0a1d-4fbb-b713-4619bff6d3ae",
+        "@type": "structure",
+        "annotation": {
+            "name": "right quadratus lumborum muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "f28d18ce-3580-4247-b400-ccc7a6a8e747"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "f7727c9f-7908-47fc-904d-41999d52551c",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_135_right_external_oblique_muscle.vtk"
+    },
+    {
+        "@id": "aa74342d-d769-4eb0-bcde-d038574ff2b5",
+        "@type": "structure",
+        "annotation": {
+            "name": "right external oblique muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "f7727c9f-7908-47fc-904d-41999d52551c"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "3dc95869-2a9a-4d0f-af79-07fb4bad5cb7",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_136_right_internal_oblique_muscle.vtk"
+    },
+    {
+        "@id": "d7fe02be-70b1-492a-b827-b6adab301af4",
+        "@type": "structure",
+        "annotation": {
+            "name": "right internal oblique muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "3dc95869-2a9a-4d0f-af79-07fb4bad5cb7"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "1a0e5dd0-dfe4-4368-8e61-6a555b5721a2",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_137_right_erector_spinae_muscle.vtk"
+    },
+    {
+        "@id": "2b968422-5dd5-4a28-a1a6-694c7f38f137",
+        "@type": "structure",
+        "annotation": {
+            "name": "right erector spinae muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "1a0e5dd0-dfe4-4368-8e61-6a555b5721a2"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "fc498725-8fd7-4096-88a8-ee7d123af5d2",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_138_right_iliacus_muscle.vtk"
+    },
+    {
+        "@id": "6af9a750-469c-498c-ba97-e08f5a34db8e",
+        "@type": "structure",
+        "annotation": {
+            "name": "right iliacus muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "fc498725-8fd7-4096-88a8-ee7d123af5d2"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "69d41622-f7db-44af-bea4-6306db390b7a",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_7_aorta.vtk"
+    },
+    {
+        "@id": "b9585ef4-fd0c-4915-bfda-4519cf6f5db1",
+        "@type": "structure",
+        "annotation": {
+            "name": "aorta"
+        },
+        "sourceSelector": {
+            "dataSource": "69d41622-f7db-44af-bea4-6306db390b7a"
+        },
+        "renderOptions": {
+            "color": "rgb(255,49,20)"
+        }
+    },
+    {
+        "@id": "8e745bbf-f5bb-4c41-8e94-e651e29102b5",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_139_right_gluteus_minimus_muscle.vtk"
+    },
+    {
+        "@id": "3f64a389-a687-414f-b0b5-b24a92966907",
+        "@type": "structure",
+        "annotation": {
+            "name": "right gluteus minimus muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "8e745bbf-f5bb-4c41-8e94-e651e29102b5"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "ed515291-5a7e-4fff-969a-d915ac07a271",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_140_right_gluteus_medius_muscle.vtk"
+    },
+    {
+        "@id": "5e246d94-512a-403d-b59a-8c301c47a195",
+        "@type": "structure",
+        "annotation": {
+            "name": "right gluteus medius muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "ed515291-5a7e-4fff-969a-d915ac07a271"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "dfdd59ac-8cef-41b0-a116-c7c1c34c98c1",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_141_right_ureter.vtk"
+    },
+    {
+        "@id": "307eb605-8122-40aa-a053-5b95dce19f75",
+        "@type": "structure",
+        "annotation": {
+            "name": "right ureter"
+        },
+        "sourceSelector": {
+            "dataSource": "dfdd59ac-8cef-41b0-a116-c7c1c34c98c1"
+        },
+        "renderOptions": {
+            "color": "rgb(225,149,75)"
+        }
+    },
+    {
+        "@id": "a88c8997-f4fa-418d-ac65-8ebdfbd63dce",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_142_left_ureter.vtk"
+    },
+    {
+        "@id": "a381e803-b49b-4541-acc5-80ab89f6d882",
+        "@type": "structure",
+        "annotation": {
+            "name": "left ureter"
+        },
+        "sourceSelector": {
+            "dataSource": "a88c8997-f4fa-418d-ac65-8ebdfbd63dce"
+        },
+        "renderOptions": {
+            "color": "rgb(225,149,75)"
+        }
+    },
+    {
+        "@id": "c39613f0-293d-4ace-a572-41d7a8abe964",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_143_right_gluteus_maximus_muscle.vtk"
+    },
+    {
+        "@id": "6a58c410-0fe0-4dcf-9eb9-7ece4bcf7775",
+        "@type": "structure",
+        "annotation": {
+            "name": "right gluteus maximus muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "c39613f0-293d-4ace-a572-41d7a8abe964"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "3daa2c8a-d638-4045-879c-d11292661add",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_145_right_renal_pelvis.vtk"
+    },
+    {
+        "@id": "efca891f-7a55-4e85-97fe-b0aaaa0a13e5",
+        "@type": "structure",
+        "annotation": {
+            "name": "right renal pelvis"
+        },
+        "sourceSelector": {
+            "dataSource": "3daa2c8a-d638-4045-879c-d11292661add"
+        },
+        "renderOptions": {
+            "color": "rgb(225,149,75)"
+        }
+    },
+    {
+        "@id": "dd928d26-6a0b-4386-afdd-13c652c8e25c",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_146_left_renal_pelvis.vtk"
+    },
+    {
+        "@id": "af7d3557-ab9d-435b-8f87-7174057b6857",
+        "@type": "structure",
+        "annotation": {
+            "name": "left renal pelvis"
+        },
+        "sourceSelector": {
+            "dataSource": "dd928d26-6a0b-4386-afdd-13c652c8e25c"
+        },
+        "renderOptions": {
+            "color": "rgb(225,149,75)"
+        }
+    },
+    {
+        "@id": "50deec9a-c6a8-4537-9816-70ff8865cc51",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_151_right_hepatic_vein.vtk"
+    },
+    {
+        "@id": "cc401d6f-0b92-45ea-b2d5-65cea5cbbaaa",
+        "@type": "structure",
+        "annotation": {
+            "name": "right hepatic vein"
+        },
+        "sourceSelector": {
+            "dataSource": "50deec9a-c6a8-4537-9816-70ff8865cc51"
+        },
+        "renderOptions": {
+            "color": "rgb(195,202,255)"
+        }
+    },
+    {
+        "@id": "3aa79c8d-59d3-4dda-813e-f45645e73e1c",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_153_left_hepatic_vein.vtk"
+    },
+    {
+        "@id": "e538d873-9f54-4e3c-ab08-ee3783c7f9e8",
+        "@type": "structure",
+        "annotation": {
+            "name": "left hepatic vein"
+        },
+        "sourceSelector": {
+            "dataSource": "3aa79c8d-59d3-4dda-813e-f45645e73e1c"
+        },
+        "renderOptions": {
+            "color": "rgb(195,202,255)"
+        }
+    },
+    {
+        "@id": "3d6765fe-9017-43fe-b675-c82bb19f1aae",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_227_left_inferior_epigastric_artery.vtk"
+    },
+    {
+        "@id": "7a5286b9-6e85-48ab-a42f-0a6d351f5b43",
+        "@type": "structure",
+        "annotation": {
+            "name": "left inferior epigastric artery"
+        },
+        "sourceSelector": {
+            "dataSource": "3d6765fe-9017-43fe-b675-c82bb19f1aae"
+        },
+        "renderOptions": {
+            "color": "rgb(253,98,70)"
+        }
+    },
+    {
+        "@id": "70a82ede-6b50-4bc5-9733-93682e1166a7",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_8_inferior_vena_cava.vtk"
+    },
+    {
+        "@id": "69d099f5-b78a-4722-806e-6107e1742d61",
+        "@type": "structure",
+        "annotation": {
+            "name": "inferior vena cava"
+        },
+        "sourceSelector": {
+            "dataSource": "70a82ede-6b50-4bc5-9733-93682e1166a7"
+        },
+        "renderOptions": {
+            "color": "rgb(49,20,255)"
+        }
+    },
+    {
+        "@id": "96d0bf89-0a52-49f8-9dcd-1e5767fe7207",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_231_left_psoas_muscle.vtk"
+    },
+    {
+        "@id": "0a5dd917-9fae-466e-94da-982db24733af",
+        "@type": "structure",
+        "annotation": {
+            "name": "left psoas muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "96d0bf89-0a52-49f8-9dcd-1e5767fe7207"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "274f0687-c1ad-4e4e-aa3e-fdf58d91964d",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_233_left_quadratus_lumborum_muscle.vtk"
+    },
+    {
+        "@id": "dcbeef4f-3750-48a2-8506-8146be58a8e6",
+        "@type": "structure",
+        "annotation": {
+            "name": "left quadratus lumborum muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "274f0687-c1ad-4e4e-aa3e-fdf58d91964d"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "44283d1e-bf6e-4731-8f99-c6d1563dc3b9",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_235_left_external_oblique_muscle.vtk"
+    },
+    {
+        "@id": "6a0c2f3a-67eb-46a2-931c-0f03fbd599c1",
+        "@type": "structure",
+        "annotation": {
+            "name": "left external oblique muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "44283d1e-bf6e-4731-8f99-c6d1563dc3b9"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "0eb04fa1-53af-40b7-87b8-24cf1e529ff3",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_236_left_internal_oblique_muscle.vtk"
+    },
+    {
+        "@id": "f559ebac-8b5d-47d3-984f-193a114774b1",
+        "@type": "structure",
+        "annotation": {
+            "name": "left internal oblique muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "0eb04fa1-53af-40b7-87b8-24cf1e529ff3"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "ec87ef9e-65fb-4869-bb82-6ba5443b48b4",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_237_left_erector_spinae_muscle.vtk"
+    },
+    {
+        "@id": "edf9415b-30b4-4283-a15c-28f65044abad",
+        "@type": "structure",
+        "annotation": {
+            "name": "left erector spinae muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "ec87ef9e-65fb-4869-bb82-6ba5443b48b4"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "bce53077-8ce9-4a79-b802-e9610955b542",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_238_left_iliacus_muscle.vtk"
+    },
+    {
+        "@id": "6a6cf003-cffd-4ddf-8871-e01f7ea90f8a",
+        "@type": "structure",
+        "annotation": {
+            "name": "left iliacus muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "bce53077-8ce9-4a79-b802-e9610955b542"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "61e1d473-679b-4874-9f29-b236d3a63a97",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_239_left_gluteus_minimus_muscle.vtk"
+    },
+    {
+        "@id": "a9ee934b-1b0a-4ba8-8e93-fbe0884f26e1",
+        "@type": "structure",
+        "annotation": {
+            "name": "left gluteus minimus muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "61e1d473-679b-4874-9f29-b236d3a63a97"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "aef8092b-a56e-4ae2-9a04-c1a16db71f4a",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_240_left_gluteus_medius_muscle.vtk"
+    },
+    {
+        "@id": "7c5dc46f-e665-4e4f-831e-4dd61fcbaf59",
+        "@type": "structure",
+        "annotation": {
+            "name": "left gluteus medius muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "aef8092b-a56e-4ae2-9a04-c1a16db71f4a"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "741889dd-a120-4b7d-980d-fcdd0f0a5057",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_241_left_gluteus_maximus_muscle.vtk"
+    },
+    {
+        "@id": "7c88671f-7273-487e-9182-d72783fb1dd8",
+        "@type": "structure",
+        "annotation": {
+            "name": "left gluteus maximus muscle"
+        },
+        "sourceSelector": {
+            "dataSource": "741889dd-a120-4b7d-980d-fcdd0f0a5057"
+        },
+        "renderOptions": {
+            "color": "rgb(230,124,124)"
+        }
+    },
+    {
+        "@id": "2d12aafe-13e6-412c-a299-97124c2f20d7",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_299_Pelvis.vtk"
+    },
+    {
+        "@id": "ba1b0c63-a114-46fa-a7da-5aee5ab8ffc5",
+        "@type": "structure",
+        "annotation": {
+            "name": "Pelvis"
+        },
+        "sourceSelector": {
+            "dataSource": "2d12aafe-13e6-412c-a299-97124c2f20d7"
+        },
+        "renderOptions": {
+            "color": "rgb(196,188,177)"
+        }
+    },
+    {
+        "@id": "8bd836fb-5d95-4e0b-884a-3642efb8d665",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_9_colon_and_ileum.vtk"
+    },
+    {
+        "@id": "8b025e19-1dca-4825-8c93-b320ef0b4582",
+        "@type": "structure",
+        "annotation": {
+            "name": "colon and ileum"
+        },
+        "sourceSelector": {
+            "dataSource": "8bd836fb-5d95-4e0b-884a-3642efb8d665"
+        },
+        "renderOptions": {
+            "color": "rgb(255,244,196)"
+        }
+    },
+    {
+        "@id": "de129059-2242-406f-9b20-5b117fc56fe2",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_409_Thoracic9.vtk"
+    },
+    {
+        "@id": "81f67424-1c74-40dd-ad19-94c38fe330d9",
+        "@type": "structure",
+        "annotation": {
+            "name": "Thoracic9"
+        },
+        "sourceSelector": {
+            "dataSource": "de129059-2242-406f-9b20-5b117fc56fe2"
+        },
+        "renderOptions": {
+            "color": "rgb(214,198,186)"
+        }
+    },
+    {
+        "@id": "c91e337b-6194-4400-ae51-1954c8a0e2d5",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_410_Thoracic10.vtk"
+    },
+    {
+        "@id": "e0ce040e-7e95-443f-9908-7bb067383135",
+        "@type": "structure",
+        "annotation": {
+            "name": "Thoracic10"
+        },
+        "sourceSelector": {
+            "dataSource": "c91e337b-6194-4400-ae51-1954c8a0e2d5"
+        },
+        "renderOptions": {
+            "color": "rgb(175,163,153)"
+        }
+    },
+    {
+        "@id": "cca0420a-88fc-4c0d-8de4-bef205b3d44c",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_411_Thoracic11.vtk"
+    },
+    {
+        "@id": "591c4e32-5d81-4067-9053-b0034f53238e",
+        "@type": "structure",
+        "annotation": {
+            "name": "Thoracic11"
+        },
+        "sourceSelector": {
+            "dataSource": "cca0420a-88fc-4c0d-8de4-bef205b3d44c"
+        },
+        "renderOptions": {
+            "color": "rgb(137,128,119)"
+        }
+    },
+    {
+        "@id": "1727b5bc-a285-407e-978e-ae9c23dfcab0",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_412_Thoracic12.vtk"
+    },
+    {
+        "@id": "d5560cac-9cdc-423c-9384-93f4ba70bbe1",
+        "@type": "structure",
+        "annotation": {
+            "name": "Thoracic12"
+        },
+        "sourceSelector": {
+            "dataSource": "1727b5bc-a285-407e-978e-ae9c23dfcab0"
+        },
+        "renderOptions": {
+            "color": "rgb(137,133,119)"
+        }
+    },
+    {
+        "@id": "e241a885-282b-40b3-95e9-0004b6923fed",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_501_Lumbar1.vtk"
+    },
+    {
+        "@id": "23f910bf-19ce-4191-b0e8-784d3eb196bb",
+        "@type": "structure",
+        "annotation": {
+            "name": "Lumbar1"
+        },
+        "sourceSelector": {
+            "dataSource": "e241a885-282b-40b3-95e9-0004b6923fed"
+        },
+        "renderOptions": {
+            "color": "rgb(214,207,186)"
+        }
+    },
+    {
+        "@id": "0bec5fd6-5717-4429-8cf8-9e3f6c3300c4",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_502_Lumbar2.vtk"
+    },
+    {
+        "@id": "f5dc8869-f1f8-4b82-b2fd-2c1fa2871d4d",
+        "@type": "structure",
+        "annotation": {
+            "name": "Lumbar2"
+        },
+        "sourceSelector": {
+            "dataSource": "0bec5fd6-5717-4429-8cf8-9e3f6c3300c4"
+        },
+        "renderOptions": {
+            "color": "rgb(175,170,153)"
+        }
+    },
+    {
+        "@id": "4aaf8add-a877-41d6-813f-ada14cba90f6",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_503_Lumbar3.vtk"
+    },
+    {
+        "@id": "b609f7c2-3089-4840-9263-3cfeeaacac69",
+        "@type": "structure",
+        "annotation": {
+            "name": "Lumbar3"
+        },
+        "sourceSelector": {
+            "dataSource": "4aaf8add-a877-41d6-813f-ada14cba90f6"
+        },
+        "renderOptions": {
+            "color": "rgb(137,137,137)"
+        }
+    },
+    {
+        "@id": "a6217957-2ca6-440e-951f-75afc963dca6",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_504_Lumbar4.vtk"
+    },
+    {
+        "@id": "b272b2ee-f86d-4b7c-b74c-949cf542ce11",
+        "@type": "structure",
+        "annotation": {
+            "name": "Lumbar4"
+        },
+        "sourceSelector": {
+            "dataSource": "a6217957-2ca6-440e-951f-75afc963dca6"
+        },
+        "renderOptions": {
+            "color": "rgb(117,117,117)"
+        }
+    },
+    {
+        "@id": "d8f39fa6-0039-41bc-afc4-30d51f5f0df2",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_505_Lumbar5.vtk"
+    },
+    {
+        "@id": "b94900ee-2ab3-42b8-9170-f552f6bc5e44",
+        "@type": "structure",
+        "annotation": {
+            "name": "Lumbar5"
+        },
+        "sourceSelector": {
+            "dataSource": "d8f39fa6-0039-41bc-afc4-30d51f5f0df2"
+        },
+        "renderOptions": {
+            "color": "rgb(188,188,188)"
+        }
+    },
+    {
+        "@id": "20e6a123-ced8-4de9-a277-10794030e073",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_551_Sacrum-L5-IntervertebralDisc.vtk"
+    },
+    {
+        "@id": "d82274dd-59ba-430e-a9e3-2a1a39f7d686",
+        "@type": "structure",
+        "annotation": {
+            "name": "Sacrum-L5-IntervertebralDisc"
+        },
+        "sourceSelector": {
+            "dataSource": "20e6a123-ced8-4de9-a277-10794030e073"
+        },
+        "renderOptions": {
+            "color": "rgb(121,121,121)"
+        }
+    },
+    {
+        "@id": "9ee5d384-2bb9-4db1-815a-4e924349c47e",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_10_gallbladder.vtk"
+    },
+    {
+        "@id": "e80a7f01-e84b-43dc-a0c9-19e1e6c46008",
+        "@type": "structure",
+        "annotation": {
+            "name": "gallbladder"
+        },
+        "sourceSelector": {
+            "dataSource": "9ee5d384-2bb9-4db1-815a-4e924349c47e"
+        },
+        "renderOptions": {
+            "color": "rgb(0,255,126)"
+        }
+    },
+    {
+        "@id": "72950568-b94c-4250-b605-135bfdabb89c",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_552_L5-L4-IntervertebralDisc.vtk"
+    },
+    {
+        "@id": "b35fe158-6787-41c6-a7ce-4effcde52818",
+        "@type": "structure",
+        "annotation": {
+            "name": "L5-L4-IntervertebralDisc"
+        },
+        "sourceSelector": {
+            "dataSource": "72950568-b94c-4250-b605-135bfdabb89c"
+        },
+        "renderOptions": {
+            "color": "rgb(212,207,195)"
+        }
+    },
+    {
+        "@id": "67a538bd-a0fb-4f27-b350-e05ef33d71c3",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_553_L4-L3-IntervertebralDisc.vtk"
+    },
+    {
+        "@id": "44a8551a-f911-454d-94ce-f899c947a6e8",
+        "@type": "structure",
+        "annotation": {
+            "name": "L4-L3-IntervertebralDisc"
+        },
+        "sourceSelector": {
+            "dataSource": "67a538bd-a0fb-4f27-b350-e05ef33d71c3"
+        },
+        "renderOptions": {
+            "color": "rgb(172,168,160)"
+        }
+    },
+    {
+        "@id": "38aa8f98-ebb4-49fe-9085-54b2621103e1",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_554_L3-L2-IntervertebralDisc.vtk"
+    },
+    {
+        "@id": "1c413fe2-6c3f-4b8e-a02b-0123b8638735",
+        "@type": "structure",
+        "annotation": {
+            "name": "L3-L2-IntervertebralDisc"
+        },
+        "sourceSelector": {
+            "dataSource": "38aa8f98-ebb4-49fe-9085-54b2621103e1"
+        },
+        "renderOptions": {
+            "color": "rgb(165,165,165)"
+        }
+    },
+    {
+        "@id": "32d66ede-d5ea-4e85-834b-056a8d870cfd",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_555_L2-L1-IntervertebralDisc.vtk"
+    },
+    {
+        "@id": "72cb5676-f7ff-444a-9e86-b81cb6971c65",
+        "@type": "structure",
+        "annotation": {
+            "name": "L2-L1-IntervertebralDisc"
+        },
+        "sourceSelector": {
+            "dataSource": "32d66ede-d5ea-4e85-834b-056a8d870cfd"
+        },
+        "renderOptions": {
+            "color": "rgb(207,207,198)"
+        }
+    },
+    {
+        "@id": "047b96df-a694-4cc0-b293-c12916888f7a",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_556_L1-T12-IntervertebralDisc.vtk"
+    },
+    {
+        "@id": "66748740-42e9-4cf3-8e47-b2ef2a3fa798",
+        "@type": "structure",
+        "annotation": {
+            "name": "L1-T12-IntervertebralDisc"
+        },
+        "sourceSelector": {
+            "dataSource": "047b96df-a694-4cc0-b293-c12916888f7a"
+        },
+        "renderOptions": {
+            "color": "rgb(172,172,172)"
+        }
+    },
+    {
+        "@id": "d6ce659c-f983-4ef0-a733-cbd2b77613d7",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_557_T12-T11-IntervertebralDisc.vtk"
+    },
+    {
+        "@id": "91ac2273-264c-4f72-bc26-b4be4c2125c3",
+        "@type": "structure",
+        "annotation": {
+            "name": "T12-T11-IntervertebralDisc"
+        },
+        "sourceSelector": {
+            "dataSource": "d6ce659c-f983-4ef0-a733-cbd2b77613d7"
+        },
+        "renderOptions": {
+            "color": "rgb(172,168,160)"
+        }
+    },
+    {
+        "@id": "63683d34-8283-4f09-af28-a210460f7388",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_558_T11-T10-IntervertebralDisc.vtk"
+    },
+    {
+        "@id": "a2cd3b52-f801-48c9-b92c-461d8cffb73f",
+        "@type": "structure",
+        "annotation": {
+            "name": "T11-T10-IntervertebralDisc"
+        },
+        "sourceSelector": {
+            "dataSource": "63683d34-8283-4f09-af28-a210460f7388"
+        },
+        "renderOptions": {
+            "color": "rgb(126,126,126)"
+        }
+    },
+    {
+        "@id": "ee7fc1a9-0c4e-4c28-adfe-4e9dca9973bf",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_559_T10-T9-IntervertebralDisc.vtk"
+    },
+    {
+        "@id": "6546e23d-f66b-4e9a-9b2e-2a27af929027",
+        "@type": "structure",
+        "annotation": {
+            "name": "T10-T9-IntervertebralDisc"
+        },
+        "sourceSelector": {
+            "dataSource": "ee7fc1a9-0c4e-4c28-adfe-4e9dca9973bf"
+        },
+        "renderOptions": {
+            "color": "rgb(219,212,198)"
+        }
+    },
+    {
+        "@id": "5cd6a40c-c39b-465c-bf38-ca62e31dcb74",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_600_Sacrum.vtk"
+    },
+    {
+        "@id": "840977bb-e412-4b2b-90c2-2d8758c9beea",
+        "@type": "structure",
+        "annotation": {
+            "name": "Sacrum"
+        },
+        "sourceSelector": {
+            "dataSource": "5cd6a40c-c39b-465c-bf38-ca62e31dcb74"
+        },
+        "renderOptions": {
+            "color": "rgb(75,68,58)"
+        }
+    },
+    {
+        "@id": "905ad868-6076-486e-b01e-482c01ae5744",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_686_Rib6.vtk"
+    },
+    {
+        "@id": "c0965612-75b0-4990-bc53-3cdca2cf3314",
+        "@type": "structure",
+        "annotation": {
+            "name": "Rib6"
+        },
+        "sourceSelector": {
+            "dataSource": "905ad868-6076-486e-b01e-482c01ae5744"
+        },
+        "renderOptions": {
+            "color": "rgb(124,124,110)"
+        }
+    },
+    {
+        "@id": "f67893ed-3618-41e0-b02b-38fedab03028",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_12_portal_vein_and_superior_mesenteric_vein.vtk"
+    },
+    {
+        "@id": "269f1289-3e27-4fbc-a891-812523bb949a",
+        "@type": "structure",
+        "annotation": {
+            "name": "portal vein and superior mesenteric vein"
+        },
+        "sourceSelector": {
+            "dataSource": "f67893ed-3618-41e0-b02b-38fedab03028"
+        },
+        "renderOptions": {
+            "color": "rgb(40,165,255)"
+        }
+    },
+    {
+        "@id": "1cb20436-772f-4270-8427-5caa6367d542",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_687_Rib7.vtk"
+    },
+    {
+        "@id": "e04e7430-f379-4617-a174-135d8ed48f06",
+        "@type": "structure",
+        "annotation": {
+            "name": "Rib7"
+        },
+        "sourceSelector": {
+            "dataSource": "1cb20436-772f-4270-8427-5caa6367d542"
+        },
+        "renderOptions": {
+            "color": "rgb(144,144,130)"
+        }
+    },
+    {
+        "@id": "34f90b90-0824-43a4-a7af-5b92de23aaf2",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_688_Rib8.vtk"
+    },
+    {
+        "@id": "cb7bdeb9-5abc-4523-896f-95bbf9a738de",
+        "@type": "structure",
+        "annotation": {
+            "name": "Rib8"
+        },
+        "sourceSelector": {
+            "dataSource": "34f90b90-0824-43a4-a7af-5b92de23aaf2"
+        },
+        "renderOptions": {
+            "color": "rgb(165,165,149)"
+        }
+    },
+    {
+        "@id": "ee196e89-9cc7-4d36-b942-319cbe4b2ab1",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_689_Rib9.vtk"
+    },
+    {
+        "@id": "25e93c1d-9116-4065-857f-c8a8dd8dc60c",
+        "@type": "structure",
+        "annotation": {
+            "name": "Rib9"
+        },
+        "sourceSelector": {
+            "dataSource": "ee196e89-9cc7-4d36-b942-319cbe4b2ab1"
+        },
+        "renderOptions": {
+            "color": "rgb(184,184,170)"
+        }
+    },
+    {
+        "@id": "e9b943bc-f89b-4c0f-b9ef-8ed20460a82a",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_690_Rib10.vtk"
+    },
+    {
+        "@id": "a71ffb06-ad6f-4db9-afcb-4b2e2731fb98",
+        "@type": "structure",
+        "annotation": {
+            "name": "Rib10"
+        },
+        "sourceSelector": {
+            "dataSource": "e9b943bc-f89b-4c0f-b9ef-8ed20460a82a"
+        },
+        "renderOptions": {
+            "color": "rgb(205,205,189)"
+        }
+    },
+    {
+        "@id": "6a1cbbb8-5139-4596-a175-999d7b41e34a",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_691_Rib11.vtk"
+    },
+    {
+        "@id": "7c2513ef-b9c9-4c7e-aa3b-8f9320addec2",
+        "@type": "structure",
+        "annotation": {
+            "name": "Rib11"
+        },
+        "sourceSelector": {
+            "dataSource": "6a1cbbb8-5139-4596-a175-999d7b41e34a"
+        },
+        "renderOptions": {
+            "color": "rgb(214,214,200)"
+        }
+    },
+    {
+        "@id": "d23b6a01-aacc-40e8-9660-ebe8d3ef5454",
+        "@type": "datasource",
+        "mimeType": "application/octet-stream",
+        "source": "../../Data/Model_692_Rib12.vtk"
+    },
+    {
+        "@id": "0a2641a7-be91-453d-b183-b65b91c4b2e5",
+        "@type": "structure",
+        "annotation": {
+            "name": "Rib12"
+        },
+        "sourceSelector": {
+            "dataSource": "d23b6a01-aacc-40e8-9660-ebe8d3ef5454"
+        },
+        "renderOptions": {
+            "color": "rgb(225,225,209)"
+        }
+    },
+    {
+        "@id": "f7170dcc-0fdf-408a-846d-60408bce5f9c",
+        "@type": "group",
+        "annotation": {
+            "name": "Skeletal System"
+        },
+        "members": [
+            "6b9f3437-72fe-44f0-af61-7adaa8adf1db",
+            "6a84446b-a59f-418c-9cc6-a0a4b304fd8c",
+            "a28cd9d0-356e-43ab-8663-d67d8adb3df0"
+        ],
+        "root": true
+    },
+    {
+        "@id": "6b9f3437-72fe-44f0-af61-7adaa8adf1db",
+        "@type": "group",
+        "annotation": {
+            "name": "Ribs"
+        },
+        "members": [
+            "a71ffb06-ad6f-4db9-afcb-4b2e2731fb98",
+            "25e93c1d-9116-4065-857f-c8a8dd8dc60c",
+            "cb7bdeb9-5abc-4523-896f-95bbf9a738de",
+            "e04e7430-f379-4617-a174-135d8ed48f06",
+            "0a2641a7-be91-453d-b183-b65b91c4b2e5",
+            "7c2513ef-b9c9-4c7e-aa3b-8f9320addec2",
+            "c0965612-75b0-4990-bc53-3cdca2cf3314"
+        ]
+    },
+    {
+        "@id": "a28cd9d0-356e-43ab-8663-d67d8adb3df0",
+        "@type": "group",
+        "annotation": {
+            "name": "Pelvic Structures"
+        },
+        "members": [
+            "840977bb-e412-4b2b-90c2-2d8758c9beea",
+            "ba1b0c63-a114-46fa-a7da-5aee5ab8ffc5"
+        ]
+    },
+    {
+        "@id": "6a84446b-a59f-418c-9cc6-a0a4b304fd8c",
+        "@type": "group",
+        "annotation": {
+            "name": "Spine"
+        },
+        "members": [
+            "b35fe158-6787-41c6-a7ce-4effcde52818",
+            "44a8551a-f911-454d-94ce-f899c947a6e8",
+            "72cb5676-f7ff-444a-9e86-b81cb6971c65",
+            "66748740-42e9-4cf3-8e47-b2ef2a3fa798",
+            "91ac2273-264c-4f72-bc26-b4be4c2125c3",
+            "a2cd3b52-f801-48c9-b92c-461d8cffb73f",
+            "6546e23d-f66b-4e9a-9b2e-2a27af929027",
+            "1c413fe2-6c3f-4b8e-a02b-0123b8638735",
+            "d82274dd-59ba-430e-a9e3-2a1a39f7d686",
+            "b94900ee-2ab3-42b8-9170-f552f6bc5e44",
+            "e0ce040e-7e95-443f-9908-7bb067383135",
+            "81f67424-1c74-40dd-ad19-94c38fe330d9",
+            "d5560cac-9cdc-423c-9384-93f4ba70bbe1",
+            "591c4e32-5d81-4067-9053-b0034f53238e",
+            "f5dc8869-f1f8-4b82-b2fd-2c1fa2871d4d",
+            "23f910bf-19ce-4191-b0e8-784d3eb196bb",
+            "b272b2ee-f86d-4b7c-b74c-949cf542ce11",
+            "b609f7c2-3089-4840-9263-3cfeeaacac69"
+        ]
+    }
+]
